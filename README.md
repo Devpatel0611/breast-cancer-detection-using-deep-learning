@@ -26,6 +26,7 @@ Breast cancer diagnosis using traditional imaging techniques is time-consuming a
 
 ---
 
+```
 ## Project Structure
 
 breast-cancer-detection-using-deep-learning/
@@ -40,7 +41,7 @@ breast-cancer-detection-using-deep-learning/
 ├── requirements.txt # Dependencies
 ├── .gitignore # Ignored files and folders
 └── README.md
-
+```
 ## Model Architecture
 - **CNN with VGG16** used for feature extraction
 - Transfer learning applied to improve performance on limited medical data
