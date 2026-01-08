@@ -19,4 +19,17 @@ Due to size and licensing constraints, the dataset is **not included** in this r
 
 To reproduce the results:
 1. Download the dataset from the link above
-2. Extract it 
+2. Extract it
+
+## Ethical Considerations
+- The dataset is publicly available and anonymized
+- No personal or sensitive patient information is included
+- This project is intended **strictly for educational and research purposes**
+
+## Notes
+- Ensure consistent image preprocessing before training
+- Dataset imbalance should be handled during training (e.g. class weighting or augmentation)
+
+---
+**Author:** Dev Patel  
+    Data Science
