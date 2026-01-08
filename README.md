@@ -6,7 +6,7 @@ This project implements an end-to-end **deep learning–based breast cancer dete
 The system classifies breast images into **benign** and **malignant** categories using a Convolutional Neural Network (CNN) with transfer learning.
 
 ---
-## Academic Context: 
+## Academic Context
 This project was developed as part of my **B.Tech Final Year Project** and has been further structured and documented for professional and industry-oriented use.
 
 ---
