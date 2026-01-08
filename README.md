@@ -62,5 +62,4 @@ This project is intended for educational and research purposes only.
 It is not a substitute for professional medical diagnosis.
 
 ## Author
-Dev Patel
-Data Science
+Dev Patel - Data Science
