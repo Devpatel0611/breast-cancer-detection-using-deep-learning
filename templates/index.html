@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+		/>
+		<link rel="stylesheet" href="static\css\style.css" />
+		<title>BreastCancerDetection</title>
+	</head>
+
+	<body>
+		<div class="container" id="container">
+			<div class="form-container sign-up">
+				<form action="/" method="post">
+					<h1>Create Account</h1>
+					<span>use your email for registeration</span>
+					<input type="text" placeholder="Name" name="register_name" />
+					<input type="email" placeholder="Email" name="register_email" />
+					<input
+						type="password"
+						placeholder="Password"
+						name="register_password"
+					/>
+					<button type="submit" name="SignUp">Sign Up</button>
+				</form>
+			</div>
+			<div class="form-container sign-in">
+				<form method="post">
+					<h1>Sign In</h1>
+
+					<span>use your email and password</span>
+					<input type="email" placeholder="Email" name="login_email" />
+					<input type="password" placeholder="Password" name="login_password" />
+					<a href="#">Forget Your Password?</a>
+					<button type="submit" name="SignIn">Sign In</button>
+				</form>
+			</div>
+			<div class="toggle-container">
+				<div class="toggle">
+					<div class="toggle-panel toggle-left">
+						<h1>Welcome Back!</h1>
+						<p>Enter your personal details to use all of site features</p>
+						<button class="hidden" id="login">Sign In</button>
+					</div>
+					<div class="toggle-panel toggle-right">
+						<h1>Breast Cancer Detection AI</h1>
+						<p>
+							Register with your personal details to use all of site features
+						</p>
+						<button class="hidden" id="register">Sign Up</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="static\js\script.js"></script>
+	</body>
+</html>
